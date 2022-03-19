@@ -229,7 +229,6 @@ img {
 }
 
 .company-features h3 {
-  margin: 0;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -237,7 +236,7 @@ img {
 }
 
 .company-features p {
-  margin: 10px 0 0 0;
+  margin-top: 10px;
   line-height: 1.7;
   color: var(--contacts-color);
 }
@@ -253,10 +252,6 @@ img {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-}
-
-.site-work .title {
-  margin: 0;
 }
 
 .work-list .work {
@@ -296,11 +291,7 @@ img {
 }
 
 .card-text h3 {
-  margin: 0 0 10px 0;
-}
-
-.card-text p {
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .team-card:not(:last-child) {
@@ -321,7 +312,6 @@ img {
 
 .company-team h2 {
   text-align: center;
-  margin: 0px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
@@ -425,7 +415,6 @@ img {
 .portfolio h2 {
   font-size: 18px;
   font-weight: 700;
-  margin: 0;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
@@ -433,7 +422,7 @@ img {
 
 .portfolio p {
   font-size: 16px;
-  margin: 4px 0 0 0;
+  margin-top: 4px;
   line-height: 1.8;
   color: var(--contacts-color);
 }
