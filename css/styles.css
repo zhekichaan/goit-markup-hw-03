@@ -284,10 +284,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card img {
-  display: block;
-}
-
 .card-text {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -443,12 +439,6 @@ img {
 }
 
 /* Portfolio cards */
-
-.card-thumb img {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
 
 .card-thumb a {
   padding-bottom: 110px;
