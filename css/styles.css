@@ -9,6 +9,7 @@
     --primary-border-color: #EEEEEE;
     --primary-bg-color: #F5F4FA;
     --shadow-color: rgba(0, 0, 0, 0.1);
+    --primary-shadow-color: rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -184,7 +185,7 @@ padding-bottom: 94px;
     border-radius: 4px;
     border-style: none;
     padding: 10px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--primary-shadow-color);
 }
 
 .hero-container {
@@ -257,7 +258,9 @@ padding-bottom: 94px;
 .team-card {
     text-align: center;
     background-color: var(--main-background-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px var(--primary-shadow-color),
+                0px 1px 1px var(--primary-shadow-color),
+                0px 2px 1px var(--primary-shadow-color);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -359,7 +362,9 @@ padding-bottom: 94px;
 
 .filter button:hover,
 .filter button:focus {
-    box-shadow: 0px 3px 1px var(--shadow-color), 0px 1px 2px var(--shadow-color), 0px 2px 2px var(--shadow-color);
+    box-shadow: 0px 3px 1px var(--shadow-color),
+                0px 1px 2px var(--shadow-color),
+                0px 2px 2px var(--shadow-color);
     background-color: var(--hover-color);
     color: var(--secondary-text-color);
 }
@@ -397,24 +402,6 @@ padding-bottom: 94px;
     margin-bottom: 0px;
 }
 
-.card-thumb img {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
-.card-thumb a {
-    padding-bottom: 110px;
-}
-
-.card-item {
-    padding: 20px 24px;
-    /* background-color: tan; */
-    border-right: 1px solid var(--primary-border-color);
-    border-left: 1px solid var(--primary-border-color);
-    border-bottom: 1px solid var(--primary-border-color);
-}
-
 .portfolio a {
     text-decoration: none;
 }
@@ -433,4 +420,24 @@ padding-bottom: 94px;
     margin: 4px 0 0 0;
     line-height: 1.8;
     color: var(--contacts-color);
+}
+
+/* Portfolio cards */
+
+.card-thumb img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.card-thumb a {
+    padding-bottom: 110px;
+}
+
+.card-item {
+    padding: 20px 24px;
+    /* background-color: tan; */
+    border-right: 1px solid var(--primary-border-color);
+    border-left: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--primary-border-color);
 }
